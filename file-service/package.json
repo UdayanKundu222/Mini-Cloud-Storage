@@ -1,0 +1,17 @@
+{
+  "name": "file-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upload, list, download and delete files for Mini Cloud Storage",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "minio": "^8.0.5",
+    "multer": "^2.0.2",
+    "pg": "^8.13.1"
+  }
+}

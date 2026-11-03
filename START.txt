@@ -1,0 +1,20 @@
+MINI CLOUD
+(open Docker Desktop first, wait for "Engine running")
+
+START + PUBLIC LINK
+  double-click start-demo.bat
+
+START (local only)
+  cd "C:\Users\udaya\OneDrive\Desktop\Projects\mini-cloud-storage"
+  docker compose up -d
+
+OPEN
+  http://localhost:8080        app
+  http://localhost:9001        MinIO console (stored files)
+
+UPLOADED FILES (normal copies, double-click to open)
+  explorer "C:\Users\udaya\OneDrive\Desktop\Projects\mini-cloud-storage\uploads"
+
+STOP
+  cd "C:\Users\udaya\OneDrive\Desktop\Projects\mini-cloud-storage"
+  docker compose down
